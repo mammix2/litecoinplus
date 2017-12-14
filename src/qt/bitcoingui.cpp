@@ -33,6 +33,7 @@
 #include "macdockiconhandler.h"
 #endif
 
+#include <QFontDatabase>
 #include <QApplication>
 #include <QMainWindow>
 #include <QMenuBar>
@@ -56,8 +57,13 @@
 #include <QTimer>
 #include <QDragEnterEvent>
 #include <QUrl>
+#include <QMimeData>
 #include <QStyle>
+#include <QSettings>
+#include <QDesktopWidget>
+#include <QListWidget>
 #include <QSplashScreen>
+#include <QTableView>
 
 #include <iostream>
 
